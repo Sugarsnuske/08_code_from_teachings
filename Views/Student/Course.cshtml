@@ -1,8 +1,7 @@
 @model ConsoleApplication.Models.ViewModels.StudentCourseViewModel 
 
 @{ 
-    ViewBag.Title = "Enroll " + @Model.Student.FirstName + @Model.Student.LastName;    
-    Layout = "../Shared/_Layout.cshtml";
+    ViewBag.Title = "Enroll " + @Model.Student.FirstName + " " + @Model.Student.LastName;
 }
 
 <div class="row">
@@ -28,13 +27,5 @@
             <a class="btn btn-primary" asp-controller="Student" asp-action="Index">Finish</a>
         </div>
     </div>
-    
- 
-            
-
-           
-        
-    
-    
   </form>   
            
