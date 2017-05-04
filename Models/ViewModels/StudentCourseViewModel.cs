@@ -1,8 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using ConsoleApplication.Models.Entities;
 
-namespace ConsoleApplication.Models.Entities
+namespace ConsoleApplication.Models.ViewModels
 {
     public class StudentCourseViewModel
     {

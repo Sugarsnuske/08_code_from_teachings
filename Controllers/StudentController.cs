@@ -4,6 +4,7 @@ using ConsoleApplication.Models;
 using ConsoleApplication.Models.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using ConsoleApplication.Models.Entities;
+using ConsoleApplication.Models.ViewModels;
 
 namespace ConsoleApplication.Controllers
 {
